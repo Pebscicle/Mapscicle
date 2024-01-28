@@ -1,0 +1,22 @@
+.layoutContainer{
+    width: 100vw;
+    height:100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+nav{
+    background-color: red;
+    height:50px;
+}
+
+ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.outletContainer{
+    background-color: blue;
+    flex: 1;
+}
